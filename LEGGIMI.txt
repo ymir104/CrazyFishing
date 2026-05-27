@@ -1,0 +1,63 @@
+CRAZY CATCH - versione sistemata v8
+
+Comandi:
+- A/D o frecce: muovi il pescatore sul pontile.
+- Tieni premuto SPAZIO o il bottone LANCIA!: carica il lancio.
+- Rilascia SPAZIO o il bottone: lancia l'amo.
+- Quando appare !!! premi SPAZIO o LANCIA! per tirare.
+- M: museo.
+- L: luoghi.
+- S: negozio.
+- AUDIO: attiva/disattiva musica e ambiente.
+
+Menu iniziale:
+- Gioca: entra nella partita.
+- Impostazioni: luminosita, volume musica, volume effetti e audio ON/OFF.
+- Esci: chiude la finestra o svuota la scheda se il browser non permette la chiusura diretta.
+
+Cose sistemate:
+- Amo e lenza non escono piu dallo schermo.
+- La canna ora ha un punto fisso sul pescatore e la lenza parte dalla punta della canna, non direttamente dal corpo.
+- Quando il pescatore e fermo non viene piu disegnata una lenza lunga nell'acqua.
+- Il lancio ora ha una vera fase carica/rilascio.
+- Se tieni premuto troppo a lungo, il gioco rilascia automaticamente al massimo della carica.
+- La canna bassa arriva quasi sempre in superficie o acque medie.
+- Le canne migliori aumentano la possibilita di raggiungere zone profonde.
+- La rarita dei pesci ora dipende molto dalla zona raggiunta dall'amo.
+- Il lancio ha una traiettoria visibile, splash d'ingresso e profondimetro con bersaglio giallo.
+- Le probabilita dei pesci Raro+ sono state abbassate molto: servono profondita, canne migliori e pazienza.
+- Vendere un pesce da monete, ma NON lo aggiunge al museo. Solo il tasto MUSEO lo dona.
+- Aggiunti pesci animati di sfondo da una spritesheet extra gratuita.
+- Il popup e il museo usano asset PNG reali.
+- Gli sprite pesce principali restano 112 file, con 88 immagini diverse e una spritesheet extra animata.
+- La canna doppia e stata rimossa: ora si usa la canna gia inclusa nello sprite del pescatore.
+- Il pontile e piu lungo e il pescatore puo muoversi molto di piu.
+- Negozio e museo hanno una nuova interfaccia piu leggibile e curata.
+- Aggiunti musica chill, ambiente acqua/molo, splash e mulinello.
+- Aggiunta schermata iniziale Crazy Catch con animazioni leggere e musica gia dal menu.
+- Sistemati HUD, bottoni, chiusura pannelli e testi sovrapposti.
+- Aggiunti riflessi, luci dinamiche, vignettatura e bagliori per una resa piu scenografica.
+- Lo script usa ?v=8 per evitare che il browser carichi una vecchia versione in cache.
+
+Come avviare:
+Metodo semplice:
+  doppio click su AVVIA_GIOCO.bat
+
+Metodo manuale:
+Apri index.html con un server locale.
+Esempio:
+  python -m http.server 8090
+Poi vai su:
+  http://localhost:8090
+
+Cartelle principali:
+- codice/gioco.js: logica Phaser 3.
+- assets/gioco/personaggi: sprite pescatore.
+- assets/gioco/pesci: 112 PNG pesce.
+- assets/gioco/pesci_extra: spritesheet pesci animati extra.
+- assets/gioco/audio: musica di sottofondo ed effetti sonori.
+- assets/gioco/oggetti: pontile, acqua, barca, capanna, erba.
+- assets/gioco/luoghi: sfondi e fondale.
+
+Fonti asset:
+Vedi FONTI_ASSET.txt.

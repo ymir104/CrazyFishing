@@ -1,0 +1,38 @@
+FONTI ASSET
+
+Ho controllato asset gratuiti online su Itch e ho usato i pack compatibili gia presenti sul computer.
+
+Asset usati:
+1. Free Fishing Pixel Art Pack
+   https://free-game-assets.itch.io/free-fishing-pixel-art-pack
+   Usato per pescatore, pontile, acqua, barca, capanna e oggetti.
+
+2. Pixel Gnome: Fishing Pack
+   https://pixelgnome.itch.io/fish
+   Usato per sprite pesce piccoli in stile pixel art.
+
+3. Free Pixel Art Fishing Game - 960+ Game Assets
+   https://freepixelart.itch.io/free-pixel-art-fishing-game-960-game-assets
+   Usato per sfondi e molti sprite pesce aggiuntivi.
+
+4. Cute Fish Sprites
+   https://opengameart.org/content/cute-fish-sprites
+   Usato per la spritesheet extra animata assets/gioco/pesci_extra/fish_sprite_sheet_32.png.
+
+5. Audio forniti dall'utente
+   Canzone_Background_chill.mp3
+   freesound_community-seals_fishermans_wharf_san_francisco-79648.mp3
+   freesound_community-fish-jumping-splash-2-96871.mp3
+   a_a2005-flowing-water-345171.mp3
+   freesound_community-fly-fishing-reel-running_5-40946.mp3
+   Usati per musica, ambiente molo/acqua, splash e mulinello.
+
+Risultato:
+- 112 file pesce collegati al gioco.
+- 88 immagini pesce realmente diverse.
+- 1 spritesheet extra con 384 frame per pesci animati di sfondo e morso.
+- 5 file audio in assets/gioco/audio.
+- Gli asset finali necessari al gioco sono solo in assets/gioco.
+
+Nota:
+Prima di pubblicare su itch.io controlla sempre la pagina licenza del singolo pack.
